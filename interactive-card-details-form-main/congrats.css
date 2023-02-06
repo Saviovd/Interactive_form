@@ -1,0 +1,54 @@
+.congrats {
+    width: 50%;
+    max-width: 650px;
+    height: 100vh;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px 0 15px ;
+}
+.thanks {
+    font-size: 3.5rem;
+    margin: 25px 0;
+}
+.thanks_text {
+    color: grey;
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+a {
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 870px){
+    .congrats {
+        width: 100%;
+        max-width: 400px;
+        margin: 50px auto 30px auto;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .congrats {
+        width: 90%;
+        margin: 0 auto 30px auto;
+        transform: translateY(-55px);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .congrats {
+        transform: translateY(-100px);
+    }
+}
+
+@media screen and (max-width: 445px){
+    .congrats {
+        transform: translateY(-150px);
+    }
+}
